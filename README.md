@@ -7,8 +7,8 @@ This is a React project demonstrating the use of functional components, state ma
 1. Clone the repository:
 
 ```bash
-   git clone https://github.com/PLP-Full-Stack-Development-MERN/week-3-react-js-assignment-SaddamTechie.git react-basics
-   cd react-basics
+   git clone https://github.com/PLP-Full-Stack-Development-MERN/week-3-react-js-assignment-SaddamTechie.git week3
+   cd week3
 ```
 
 Install dependencies:
