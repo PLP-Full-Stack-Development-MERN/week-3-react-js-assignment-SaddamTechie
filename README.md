@@ -1,62 +1,43 @@
-**Week 3: React.js Fundamentals Assignment**
+# React Basics
 
-**Objective:**
+This is a React project demonstrating the use of functional components, state management with hooks, and styling with Tailwind CSS.
 
-- Apply React.js concepts learned throughout the week.
-- Practice creating components, managing state, handling events, and using Tailwind CSS.
+## Installation
 
-**Instructions:**
+1. Clone the repository:
 
-1. **Setup React.js Project:**
+```bash
+   git clone https://github.com/PLP-Full-Stack-Development-MERN/week-3-react-js-assignment-SaddamTechie.git react-basics
+   cd react-basics
+```
 
-   - Install Node.js using NVM and create a React project.
-   - Create a new project folder called `react-assignment`.
-   - Initialize a React app and configure Tailwind CSS.
-   - Ensure the project is properly structured with organized components.
+Install dependencies:
 
-2. **Project Structure:**
+```bash
+npm install
+```
 
-   - Organize your project files with a clear folder structure, ensuring separation of concerns.
+Start the development server:
 
-3. **Create Functional Components:**
+```bash
+npm start
+```
 
-   - Build a `Header` component that displays a title.
-   - Create a `Profile` component that accepts user details (name, email) as props and displays them.
-   - Implement a `Counter` component that tracks and displays count using state.
+**Project Structure**
+src/components/: Contains reusable components.
+src/App.js: Main application component.
+src/index.js: Entry point of the application.
 
-4. **Manage State with Hooks:**
+Features
+Header: Displays the title of the project.
 
-   - Use React's `useState` hook to manage and update component state.
-   - Add event handlers to interact with the state (e.g., increment counter, update profile info).
+Profile: Displays user details passed as props.
 
-5. **Integrate Components in `App.js`:**
+Counter: Tracks and updates count using state.
 
-   - Import and render all the created components within `App.js`.
-   - Pass necessary props and ensure proper communication between components.
+Technologies Used
+React.js
 
-6. **Styling with Tailwind CSS:**
+Tailwind CSS
 
-   - Apply Tailwind utility classes to style the components.
-   - Ensure the UI is visually appealing and responsive.
-
-7. **Testing:**
-
-   - Run the project to verify all components are working as expected.
-   - Ensure there are no console errors or warnings.
-
-8. **Documentation:**
-
-   - Add a `README.md` file with clear instructions on how to install, run, and use the project.
-
-9. **Submission:**
-
-   - Push your code to your GitHub repository.
-
-**Evaluation Criteria:**
-
-- Correct implementation of React components and hooks.
-- Proper use of Tailwind CSS for styling.
-- Project structure and code organization.
-- Clear and concise documentation.
-- Successful testing of the components.
-
+Node.js
